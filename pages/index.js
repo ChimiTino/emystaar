@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { useRef } from 'react'
 import Link from 'next/link'
+import SlideShow from '../Componets/SlideShow/slideShow'
 import ContactBox from '../Componets/ContactBox/ContactBox'
 import Description from '../Componets/Descriptions/description'
 import Process from '../Componets/Process/process'
@@ -8,7 +9,7 @@ import FooterCont from '../Componets/Footer/FooterCont'
 import * as BsIcons from 'react-icons/bs'
 import DescriptionMedia from '../Componets/DescriptionMedia/DescriptionMedia'
 import ContactBo from '../Componets/ContactBo/ContactBo'
-import * as BsIcons from 'react-icons/bs'
+
 
 
 
