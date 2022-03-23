@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import { useRef } from 'react'
 import Link from 'next/link'
-import SlideShow from '../Componets/SlideShow/slideShow'
 import ContactBox from '../Componets/ContactBox/ContactBox'
 import Description from '../Componets/Descriptions/description'
 import Process from '../Componets/Process/process'
@@ -9,7 +8,7 @@ import FooterCont from '../Componets/Footer/FooterCont'
 import * as BsIcons from 'react-icons/bs'
 import DescriptionMedia from '../Componets/DescriptionMedia/DescriptionMedia'
 import ContactBo from '../Componets/ContactBo/ContactBo'
-
+import * as BsIcons from 'react-icons/bs'
 
 
 
@@ -44,7 +43,18 @@ export default function Home() {
          </li>
        </nav>
        
-         <SlideShow/>
+       <>
+       <div className='slider' >
+        <div className ="slider-container"  interval={10000}>
+            <div>
+          <video src='/ivri.jpg.mp4' autoPlay loop muted  className='slide'   />
+         </div>
+         </div> 
+         <a href='#scroll2desc' className='ser-but'>Our Services 
+         <div className='icon2'>< BsIcons.BsChevronCompactDown/></div>
+         </a>
+      </div>
+        </>
        
        
        <div className='main-info-container'>
