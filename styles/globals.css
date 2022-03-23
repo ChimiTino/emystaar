@@ -14,3 +14,25 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.subject-topics li{
+  list-style: none;
+}
+.exams-list li{
+  list-style: none;
+}
+.sub-list{
+  position: relative;
+  display: block;
+  
+}
+.sub-list p{
+  cursor: pointer;
+  
+}
+.sub-toggle-active{
+  display: none;
+}
+.exams-list{
+  margin-top: 50px;
+}
