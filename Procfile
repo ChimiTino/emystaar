@@ -1,0 +1,1 @@
+web:node es/pages/index
