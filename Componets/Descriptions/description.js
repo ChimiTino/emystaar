@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
-import * as HiIcons from "react-icons/hi";
-import * as GiIcons from "react-icons/Gi";
+
 import TopicDesc from '../TopicDesc/TopicDesc'
 
 function Description() {
