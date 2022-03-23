@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { useRef } from 'react'
-import Image from 'next/image'
+import Link from 'next/link'
 import SlideShow from '../Componets/SlideShow/slideShow'
 import ContactBox from '../Componets/ContactBox/ContactBox'
 import Description from '../Componets/Descriptions/description'
@@ -32,15 +32,15 @@ export default function Home() {
       <div className='slide-con'>
       <nav className='nav-container'>
          <div className='image-container'>
-           <a href='/'><header className='logo'>EmmySt<span>< BsIcons.BsFillStarFill/></span>
+           <Link href='/'><header className='logo'>EmmySt<span>< BsIcons.BsFillStarFill/></span>
            
-           r</header></a>
+           r</header></Link>
           
          </div>
          
          <li>
-           <a className='contact' href='/'>Home </a>
-           <a href='#form' >Contact Us</a>
+           <Link className='contact' href='/'>Home </Link>
+           <Link href='#form' >Contact Us</Link>
          </li>
        </nav>
        
