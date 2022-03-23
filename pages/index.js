@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { useRef } from 'react'
 import Link from 'next/link'
-import SlideShow from '../Componets/SlideShow/slideShow'
+
 import ContactBox from '../Componets/ContactBox/ContactBox'
 import Description from '../Componets/Descriptions/description'
 import Process from '../Componets/Process/process'
