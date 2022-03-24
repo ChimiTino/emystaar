@@ -5,7 +5,7 @@ function ContactBox({focusRender}) {
         <div className='info-container'>
          <div className='contact-container'>
       <div className='contact-box'>
-      <form  className='contact-info'  action="https://formsubmit.co/tinotendachibi33@gmail.com" method="POST" >
+      <form  className='contact-info'  action="https://formsubmit.co/emmystar78.office@gmail.com" method="POST" >
         <h2>Contact Us</h2>
         <div className='input-container'>
         <input ref={focusRender} type="text" name='name' placeholder='Name' required/>
