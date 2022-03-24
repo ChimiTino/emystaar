@@ -24,7 +24,7 @@ function DescriptionMedia() {
         <div className='desc-con'>
             <h2>Home Cleaning</h2>
             <div className='desc-lin'></div>
-            <p> ipsum dolor sit amet consectetur, adipisicing elit. Nulla nihil quisquam maxime quasi? Earum, </p>
+            <p>Our high-end services will leave you proud of your cozy surroundings. We offer trustworthy residential workers that are fully trained in hospitality cleaning and are keen to leave your house in the best state you have ever seen it.  </p>
             <div className='desc-slin'></div>
             
            
@@ -38,7 +38,7 @@ function DescriptionMedia() {
         <div className='desc-con'>
             <h2>Night Nursing</h2>
             <div className='desc-lin'></div>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla nihil quisquam maxime quasi? Earum, </p>
+            <p>The first few months with a new baby can be a difficult transition for both new and seasoned parents. We take care of your child so that you can recover mentally and emotionally whether it be loss of sleep or complete exhaustion.</p>
             <div className='desc-slin'></div>
             
         </div>    
@@ -51,7 +51,7 @@ function DescriptionMedia() {
         <div className='desc-con'>
             <h2>Day Nursing</h2>
             <div className='desc-lin'></div>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla nihil quisquam maxime quasi? Earum, </p>
+            <p>EmyStaar has experienced and companionate staff that will look after prize and joy in the comfort of your own home. We offer our staff on the weekdays and on public holidays. <br/> .</p>
             <div className='desc-slin'></div>
         </div>    
       </div>
