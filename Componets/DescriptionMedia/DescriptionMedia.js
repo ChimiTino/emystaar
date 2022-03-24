@@ -8,7 +8,7 @@ function DescriptionMedia() {
       <div className='topicDes' id='office' >
         <img className='topDescIm' src='/f.PNG' alt=''/>
         <div className='desc-con'>
-            <h2>Corporate Cleaning</h2>
+            <h2>Office Cleaning</h2>
             <div className='desc-lin'></div>
             <p>The cleaner your workspace the more productive you will be. We offer our services weekly or monthly depending on the size of the office space.   </p>
             <div className='desc-slin'></div>
