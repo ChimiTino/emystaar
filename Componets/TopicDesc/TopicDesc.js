@@ -38,7 +38,7 @@ function TopicDesc() {
       </div>
       
       <div className='background' onMouseEnter={activeSw1} onMouseLeave={activeSw1}>
-      <div className={ active1? 'active-topicDesc':'topicDesc'} id='office' >
+      <div className={ active1? 'active-topicDesc':'topicDesc'} id='house' >
         <img className={ active1? 'active-topDescImg':'topDescImg'} src='/Capture.PNG' alt=''/>
         <div className={ active1? 'active-desc-cont':'desc-cont'}>
             <h2>Home Cleaning</h2>
@@ -53,7 +53,7 @@ function TopicDesc() {
       </div>
 
       <div className='background' onMouseEnter={activeSw2} onMouseLeave={activeSw2}>
-      <div className={ active2? 'active-topicDesc':'topicDesc'} id='office' >
+      <div className={ active2? 'active-topicDesc':'topicDesc'} id='night' >
         <img className={ active2? 'active-topDescImg':'topDescImg'} src='d.jpg' alt=''/>
         <div className={ active2? 'active-desc-cont':'desc-cont'}>
             <h2>Night Nursing</h2>
@@ -68,7 +68,7 @@ function TopicDesc() {
       </div>
       
       <div className='background' onMouseEnter={activeSw3} onMouseLeave={activeSw3}>
-      <div className={ active3? 'active-topicDesc':'topicDesc'} id='office' >
+      <div className={ active3? 'active-topicDesc':'topicDesc'} id='Day' >
         <img className={ active3? 'active-topDescImg':'topDescImg'} src='https://www.daynurseries.co.uk/article_photos/largephotos/1588459.jpg' alt=''/>
         <div className={ active3? 'active-desc-cont':'desc-cont'}>
             <h2>Day Nursing</h2>
