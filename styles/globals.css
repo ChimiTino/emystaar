@@ -50,7 +50,7 @@ body {
 }
 .call{
   position: sticky;
-  display: flex;
+  display: none;
   bottom: 10px;
   left: 10px;
   width: 60px;
@@ -179,7 +179,7 @@ height: 60px;
   font-size: 13px;
   width: 70%;
   position: relative;
-  z-index: 2;
+  z-index: 9;
   transition: 0.4s;
   margin-top: 30px;
   margin-left: 14.5%;
@@ -281,6 +281,8 @@ height: 60px;
   width: 70%;
   margin-top: 30px;
   margin-left: 18%;
+  position: relative;
+  z-index: 9;
 }
 .topicDesc-cont{
   margin-top: 0px;
@@ -678,9 +680,32 @@ input:focus{
 
 @media screen and (max-width: 900px){
 
+  .call {
+    position: -webkit-sticky;
+    position: sticky;
+    display: flex;
+    bottom: 10px;
+    left: 10px;
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+    padding: 18px;
+    font-size: 25px;
+    background-color: rgb(255, 129, 129);
+}
+  .logo{
+    font-size: 18px;
+  }
+  .logo span{
+    font-size: 14px;
+  }
   .slide-con{
     height: 800px;
     overflow: initial;
+  }
+  .h1link{
+    display: none;
+    color: blue;
   }
   .contact-box{
     display: initial;
@@ -703,7 +728,7 @@ input:focus{
     display: none;
   }
   .nav-container li a{
-    margin-right: 0px;
+    margin-top: 0px;
   }
   .main-info-container{
     background-color: rgba(0, 0, 0, 0);
