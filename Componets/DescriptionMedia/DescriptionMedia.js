@@ -19,7 +19,7 @@ function DescriptionMedia() {
       </div>
       
       <div className='backgroun'>
-      <div className='topicDes' id='office' >
+      <div className='topicDes' id='house' >
         <img className='topDescIm' src='/Capture.PNG' alt=''/>
         <div className='desc-con'>
             <h2>Home Cleaning</h2>
@@ -33,7 +33,7 @@ function DescriptionMedia() {
       </div>
 
       <div className='backgroun' >
-      <div className='topicDes' id='office' >
+      <div className='topicDes' id='night' >
         <img className='topDescIm' src='d.jpg' alt=''/>
         <div className='desc-con'>
             <h2>Night Nursing</h2>
@@ -46,7 +46,7 @@ function DescriptionMedia() {
       </div>
       
       <div className='backgroun' >
-      <div className='topicDes' id='office' >
+      <div className='topicDes' id='Day' >
         <img className='topDescIm' src='https://www.daynurseries.co.uk/article_photos/largephotos/1588459.jpg' alt=''/>
         <div className='desc-con'>
             <h2>Day Nursing</h2>
